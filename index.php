@@ -25,7 +25,7 @@ require_once "funciones.php";
 		<img src="images/InterMapper.png" alt="intermapper" />
 		
 		
-		<h1>IM Mobile</h1>
+		<h1>MIMWI</h1>
 		</center>
 	</div>
 	

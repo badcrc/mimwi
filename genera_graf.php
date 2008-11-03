@@ -1,6 +1,7 @@
 <?
 session_start();
 
+//change jppraph path to a working one
 require_once "db.php";
 require_once "/Users/koldo/Proyectos/PHP/jpgraph-2.3.3/src/jpgraph.php";
 require_once "/Users/koldo/Proyectos/PHP/jpgraph-2.3.3/src/jpgraph_line.php";

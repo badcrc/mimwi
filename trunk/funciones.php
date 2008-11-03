@@ -32,7 +32,7 @@ function print_footer_index() {
 		?>
 		
 		This <a href="http://code.google.com/p/iphone-universal/">iPhone UI Framework kit</a> is licenced under GNU Affero General Public License (<a href="http://www.gnu.org/licenses/agpl.html">GNU AGPL 3</a>)<br />
-		IM Mobile is licenced under GNU General Public License (<a href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>)
+		MIMWI is licenced under GNU General Public License (<a href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>)
 
 
 		</p>

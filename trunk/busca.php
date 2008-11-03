@@ -11,7 +11,7 @@ require_once "funciones.php";
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-	<title>IM Mobile : <? echo SEARCH; ?></title>
+	<title>MIMWI : <? echo SEARCH; ?></title>
 	<link rel="stylesheet" href="estilos/iphone.css" />
 </head>
 

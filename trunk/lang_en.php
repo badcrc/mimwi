@@ -78,6 +78,15 @@ define("REASON","Reason");
 //alerts
 define("ALERTS","Alerts");
 
+//server
+define("SERVER","Server");
+define("LOCATION","Location");
+define("CONTACT","Contact");
+define("NET","Net");
+define("POLL","Poll");
+define("DEVICE_INTERVAL","Dev. Interval");
+define("EVENT_INTERVAL","Evnt. Interval");
+define("DATA_INTERVAL","Data Interval");
 
 //about
 define("ABOUT_TEXT",
@@ -85,6 +94,7 @@ define("ABOUT_TEXT",
 <p>It uses database engine from <a href=\"http://dartware.com/support/tech_notes/im50/imdatabase.html\">Intermapper Database</a> as backend (avaiable from version 5.0)</p>
 <p>This interface is enterily programed in <a href=\"http://www.php.net/\">PHP</a> (with pgsql and GD2 support); icons from <a href=\"http://www.famfamfam.com/\">FamFamFam</a>, the CSS and HTML framework <a href=\"http://code.google.com/p/iphone-universal/\">UiUIKit</a> and the <a href=\"http://www.aditus.nu/jpgraph/\">JpGraph</a> library for the graphs had been used. </p><br />
 <p>For any kind of feedback you can find me at: <img src=\"images/koldoaingeru_gmail.png\" alt=\"koldoaingeru\" /></p>
+<p>More info at MIMWI's <a href=\"http://code.google.com/p/mimwi/\">Google code page</a></p>
 ");
 
 

@@ -78,12 +78,23 @@ define("REASON","Razón");
 //alerts
 define("ALERTS","Alerts");
 
+//server
+define("SERVER","Servidor");
+define("LOCATION","Localización");
+define("CONTACT","Contacto");
+define("NET","Red");
+define("POLL","Poll");
+define("DEVICE_INTERVAL","Intervalo disp.");
+define("EVENT_INTERVAL","Intervalo event");
+define("DATA_INTERVAL","Intervalo datos");
+
 //about
 define("ABOUT_TEXT",
 "<p>MIMWI es una aplicación web orientada al iPhone de <a href=\"http://www.apple.com\">Apple</a>.</p>
 <p>Utiliza como backend el motor de base de datos del <a href=\"http://dartware.com/support/tech_notes/im50/imdatabase.html\">Intermapper Database</a> disponible a partir de la versión 5.0.</p>
 <p>La interfaz está realiza entera en <a href=\"http://www.php.net/\">PHP</a> (con soporte de pgsql y GD2); se han usado los iconos de <a href=\"http://www.famfamfam.com/\">FamFamFam</a>, el framework CSS y HTML <a href=\"http://code.google.com/p/iphone-universal/\">UiUIKit</a> y la librería <a href=\"http://www.aditus.nu/jpgraph/\">JpGraph</a> para las gráficas. </p><br />
 <p>Para cualquier duda, bug o sugerencia: <img src=\"images/koldoaingeru_gmail.png\" alt=\"koldoaingeru\" /></p>
+<p>Más información en la <a href=\"http://code.google.com/p/mimwi/\">página de Google Code</a> de MIMWI</p>
 ");
 
 

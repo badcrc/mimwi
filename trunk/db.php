@@ -15,4 +15,8 @@ else
 	require_once("lang_en.php");
 
 $link=pg_connect("host=$dbhost port=$dbport dbname=$dbname user=$dbuser password=$dbpasswd");
+
+
+require_once "functions.php";
+
 ?>

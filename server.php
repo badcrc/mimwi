@@ -2,7 +2,6 @@
 session_start();
 
 require_once "db.php";
-require_once "funciones.php";
 
 
 ?>
@@ -49,27 +48,27 @@ $server_id=sql_quote($_GET["server_id"]);
 ?>
 	
 	<div id="header">
-		<h1>Servidor</h1>
-		<a href="maps.php" id="backButton" class="nav">Atrás</a>
+		<h1><? echo SERVER?></h1>
+		<a href="maps.php" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 
 
 
-<h1>Servidor #<? echo $server_id;?></h1>
+<h1><? echo SERVER?> #<? echo $server_id;?></h1>
 
 <ul class="field">
-	<li><h3>Nombre:</h3><? echo $server; ?></li>
+	<li><h3><? echo NAME?>:</h3><? echo $server; ?></li>
 	<li><h3>UUID:</h3><? echo $uuid; ?></li>
 	<li><h3>URL:</h3><a href="<? echo $url; ?>"><? echo $url; ?></a></li>
-	<li><h3>Localización:</h3><? echo $host_location; ?></li>
-	<li><h3>Contacto:</h3><? echo $host_contact; ?></li>
-	<li><h3>Red:</h3><? echo $network_name; ?></li>
-	<li><h3>Poll:</h3><? echo $poll_type; ?></li>
-	<li><h3>Intervalo disp.:</h3><? echo $device_interval; ?></li>
-	<li><h3>Intervalo event.:</h3><? echo $event_interval; ?></li>
-	<li><h3>Intervalo datos:</h3><? echo $data_interval; ?></li>
-	<li><h3>Creado:</h3><? echo $create_time; ?></li>
-	<li><h3>Eliminado:</h3><? echo $delete_time; ?></li>
+	<li><h3><? echo LOCATION?>:</h3><? echo $host_location; ?></li>
+	<li><h3><? echo CONTACT?>:</h3><? echo $host_contact; ?></li>
+	<li><h3><? echo NET?>:</h3><? echo $network_name; ?></li>
+	<li><h3><? echo POLL?>:</h3><? echo $poll_type; ?></li>
+	<li><h3><? echo DEVICE_INTERVAL?>:</h3><? echo $device_interval; ?></li>
+	<li><h3><? echo EVENT_INTERVAL?>:</h3><? echo $event_interval; ?></li>
+	<li><h3><? echo DATA_INTERVAL?>:</h3><? echo $data_interval; ?></li>
+	<li><h3><? echo CREATE_TIME?>:</h3><? echo $create_time; ?></li>
+	<li><h3><? echo DELETE_TIME?>:</h3><? echo $delete_time; ?></li>
 
 
 

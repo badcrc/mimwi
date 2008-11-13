@@ -3,17 +3,17 @@
 
 = MIMWI =
 			
-_Mimwi stands for "Mobile InterMapper(tm) Web Interface"_
+_"Mobile InterMapper(tm) Web Interface"_
 
 *****************************************************
 
-REQUISITES
+== REQUISITES ==
 	* InterMapper (tm) Database v5
 	* Web server (tested in Apache 2.2 and Lighttp 1.5) with PHP 5.
 	* Postgre83 support in PHP.
 	* jpgraph for generating real-time graphs.
 
-INSTALATION
+== INSTALATION ==
 	# Just copy to a web-viewable directory o make a virtual host, etc... on your web server.
 	# Edit db.php and fill the InterMapper (tm) database config options.
 	# Edit do_graph.php and change the two paths to an actual working path of jpgraph.

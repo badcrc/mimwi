@@ -34,10 +34,10 @@ require_once "funciones.php";
 	</ul>
 		
 	<ul >
-		<li class="arrow"><a href="mapas.php"><img src="images/mapas.png" class="ico" /><? echo MAPS; ?></a></li>
-		<li class="arrow"><a href="alertas.php"><img src="images/list-icon-2.png" class="ico" /><? echo ALERTS; ?><small class="counter"><? echo get_actual_alerts($link);?></small></a></li>
-		<li class="arrow"><a href="eventos.php"><img src="images/eventos.png" class="ico" /><? echo EVENTS; ?></a></li>
-		<li class="arrow"><a href="buscar.php"><img src="images/list-icon-1.png" class="ico" /><? echo SEARCH; ?></a></li>
+		<li class="arrow"><a href="maps.php"><img src="images/mapas.png" class="ico" /><? echo MAPS; ?></a></li>
+		<li class="arrow"><a href="alerts.php"><img src="images/list-icon-2.png" class="ico" /><? echo ALERTS; ?><small class="counter"><? echo get_actual_alerts($link);?></small></a></li>
+		<li class="arrow"><a href="events.php"><img src="images/eventos.png" class="ico" /><? echo EVENTS; ?></a></li>
+		<li class="arrow"><a href="search.php"><img src="images/list-icon-1.png" class="ico" /><? echo SEARCH; ?></a></li>
 		
 	</ul>
 	

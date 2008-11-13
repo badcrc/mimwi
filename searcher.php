@@ -19,7 +19,7 @@ require_once "funciones.php";
 	
 	<div id="header">
 		<h1><? echo SEARCH; ?></h1>
-		<a href="buscar.php" id="backButton" class="nav"><? echo BACK; ?></a>
+		<a href="search.php" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 
 
@@ -55,7 +55,7 @@ if($row["device_id"]!="") {
 		$status=$row["status"];
 		
 	
-			echo "<li><a href=\"dispositivo.php?device_id=$device_id&map_id=$map_id&server_id=$server_id\" class=\"arrow\">$device  <small>$ip</small></a></li>";	
+			echo "<li><a href=\"device.php?device_id=$device_id&map_id=$map_id&server_id=$server_id\" class=\"arrow\">$device  <small>$ip</small></a></li>";	
 	
 	} while ($row = pg_fetch_array($result));
 	

@@ -48,7 +48,7 @@ if($row["event_id"]!="") {
 			case "critical": $img_status="images/critical.png"; break;
 			case "warning": $img_status="images/warning.png"; break;	
 		}	
-			echo "<li><a href=\"alerta.php?id=$event_id\" class=\"arrow\">$device <small><img src=\"$img_status\" alt=\"$status\" ></small><em>$begin_time</em></a></li>";	
+			echo "<li><a href=\"alert.php?id=$event_id\" class=\"arrow\">$device <small><img src=\"$img_status\" alt=\"$status\" ></small><em>$begin_time</em></a></li>";	
 	
 	} while ($row = pg_fetch_array($result));
 	

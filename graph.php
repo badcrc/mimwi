@@ -30,27 +30,9 @@ $dataset_id=sql_quote($_GET["dataset_id"]);
 	
 	<div id="header">
 		<h1><? echo GRAPH; ?></h1>
-		<a href="dispositivo.php?device_id=<? echo $device_id; ?>&map_id=<? echo $map_id; ?>&server_id=<? echo $server_id; ?>" id="backButton" class="nav"><? echo BACK; ?></a>
+		<a href="device.php?device_id=<? echo $device_id; ?>&map_id=<? echo $map_id; ?>&server_id=<? echo $server_id; ?>" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 	
-<?
-/*
-<ul class="data">
-	<li class="picture">
-	
-		<? 
-			if(file_exists("/home/ruby/fln/shared/images/anime/$anime_id/thumb/portada.jpg"))
-				echo "<center><img src=\"http://flnimg.frozen-layer.com/images/anime/$anime_id/thumb/portada.jpg\" alt=\"$serie\" /></center>"; 
-			else	
-				echo "<center><img src=\"\" alt=\"$serie\" /></center>";
-			
-		?>
-		
-
-	</li>
-</ul>
-*/
-?>
 
 <?
 if($dataset_id!="") {
@@ -78,7 +60,7 @@ if($dataset_id!="") {
 		$_SESSION["data_time"]=$data_time;
 		$_SESSION["label"]=get_dataset_name($link,$dataset_id); if($_SESSION["label"]=="") $_SESSION["label"]="N/A";
 
-		echo "<a href='#'style=\"background: url(genera_graf.php) no-repeat\"></a>\n";
+		echo "<a href='#'style=\"background: url(do_graph.php) no-repeat\"></a>\n";
 		
 		echo "</li>";
 		echo "</ul>";

@@ -64,7 +64,7 @@ if($row["event_id"]!="") {
 		}
 		
 	
-			echo "<li><a href=\"evento.php?event_id=$event_id&server_id=$server_id\" class=\"arrow\">$begin_time  <small><img src=\"$img_status\" alt=\"$status\" ></small> <em>$device</em></a></li>\n";	
+			echo "<li><a href=\"event.php?event_id=$event_id&server_id=$server_id\" class=\"arrow\">$begin_time  <small><img src=\"$img_status\" alt=\"$status\" ></small> <em>$device</em></a></li>\n";	
 	
 	} while ($row = pg_fetch_array($result));
 	

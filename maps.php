@@ -60,7 +60,7 @@ if($row["map_id"]!="") {
 			$map_name=$row["name"];
 			
 		
-				echo "<li class=\"arrow\"><a href=\"mapa.php?id=$map_id&server_id=$server_id\">".$row['name']."<small class=\"counter\">".get_device_numer($link,$map_id,$server_id)."</small></a></li>\n";	
+				echo "<li class=\"arrow\"><a href=\"map.php?id=$map_id&server_id=$server_id\">".$row['name']."<small class=\"counter\">".get_device_numer($link,$map_id,$server_id)."</small></a></li>\n";	
 		
 		} while ($row = pg_fetch_array($result));
 		

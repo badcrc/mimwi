@@ -42,6 +42,8 @@ function print_footer_index() {
 }
 
 
+
+
 function get_device_name($link,$map_id,$device_id) {
 	$query="SELECT name FROM device WHERE device_id='$device_id' and map_id='$map_id'";
 	$result = pg_query($link,$query);

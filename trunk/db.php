@@ -23,7 +23,6 @@ $link=pg_connect("host=$dbhost port=$dbport dbname=$dbname user=$dbuser password
 
 if(!$link) {
 	?>
-		
 		<center>
 		<? echo ERROR_DB_CONNECT; ?>
 		</center>	

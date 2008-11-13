@@ -1,18 +1,10 @@
 #summary Requisites and installation instructions.
 
-= Introduction =
 
-Requisites and installation instructions.
+= MIMWI =
+			
+_Mimwi stands for "Mobile InterMapper(tm) Web Interface"_
 
-
-= Details =
-
-				MIMWI 
-
-Mimwi stands for "Mobile InterMapper(tm) Web Interface".
-
-
-*****************************************************
 *****************************************************
 
 REQUISITES

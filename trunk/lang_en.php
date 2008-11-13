@@ -97,6 +97,12 @@ define("ABOUT_TEXT",
 <p>More info at MIMWI's <a href=\"http://code.google.com/p/mimwi/\">Google code page</a></p>
 ");
 
+//errors
+define("ERROR_DB_CONNECT",
+"<h2>Unable to connect to database</h2>
+Check conection parameters in db.php and postgresql server conectivity.
+");
+
 
 //footer
 define("REAL_IPHONE","Best viewed on a real iPhone.");

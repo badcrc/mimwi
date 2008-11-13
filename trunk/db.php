@@ -1,4 +1,9 @@
 <?
+ error_reporting(0);
+
+require_once "functions.php"; 
+
+
 //change this to point to you server data
  
 $dbhost="";
@@ -16,7 +21,17 @@ else
 
 $link=pg_connect("host=$dbhost port=$dbport dbname=$dbname user=$dbuser password=$dbpasswd");
 
+if(!$link) {
+	?>
+		
+		<center>
+		<? echo ERROR_DB_CONNECT; ?>
+		</center>	
+	<?
+	die();
+}
 
-require_once "functions.php";
+
+
 
 ?>

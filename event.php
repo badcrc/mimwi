@@ -50,24 +50,6 @@ if($event_id!="") {
 		<h1><? echo EVENTS; ?></h1>
 		<a href="eventos.php" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
-<?
-/*
-<ul class="data">
-	<li class="picture">
-	
-		<? 
-			if(file_exists("/home/ruby/fln/shared/images/anime/$anime_id/thumb/portada.jpg"))
-				echo "<center><img src=\"http://flnimg.frozen-layer.com/images/anime/$anime_id/thumb/portada.jpg\" alt=\"$serie\" /></center>"; 
-			else	
-				echo "<center><img src=\"\" alt=\"$serie\" /></center>";
-			
-		?>
-		
-
-	</li>
-</ul>
-*/
-?>
 
 
 

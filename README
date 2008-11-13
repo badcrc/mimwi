@@ -13,7 +13,7 @@ REQUISITES
 	- jpgraph for generating real-time graphs.
 
 INSTALATION
-	- Just copy to a web-viewable directory o make a virtual host, etc... on your web server.
-	- Edit db.php and fill the InterMapper (tm) database config options.
-	- Edit genera_graf.php and change the two paths to an actual working path of jpgraph.
+	1. Just copy to a web-viewable directory o make a virtual host, etc... on your web server.
+	2. Edit db.php and fill the InterMapper (tm) database config options.
+	3. Edit do_graph.php and change the two paths to an actual working path of jpgraph.
 

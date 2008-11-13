@@ -50,7 +50,7 @@ $server_id=sql_quote($_GET["server_id"]);
 	
 	<div id="header">
 		<h1>Servidor</h1>
-		<a href="mapas.php" id="backButton" class="nav">Atrás</a>
+		<a href="maps.php" id="backButton" class="nav">Atrás</a>
 	</div>
 
 

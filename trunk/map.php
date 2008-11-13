@@ -26,8 +26,8 @@ $server_id=sql_quote($_GET["server_id"]);
 	
 	<div id="header">
 		<h1><? echo MAP; ?></h1>
-		<a href="mapas.php" id="backButton" class="nav"><? echo BACK; ?></a>
-		<a href="servidor.php?server_id=<? echo $server_id?>" id="action" class="nav Action"><? echo SERVER; ?></a>
+		<a href="maps.php" id="backButton" class="nav"><? echo BACK; ?></a>
+		<a href="server.php?server_id=<? echo $server_id?>" id="action" class="nav Action"><? echo SERVER; ?></a>
 	</div>
 
 <h1>
@@ -63,7 +63,7 @@ if($row["device_id"]!="") {
 		$name=$row["name"];
 		$ip=$row["ip"];
 	
-			echo "<li class=\"arrow\"><a href=\"dispositivo.php?device_id=$device_id&map_id=$map_id&server_id=$server_id\">$name</a>$ip</li>\n";	
+			echo "<li class=\"arrow\"><a href=\"device.php?device_id=$device_id&map_id=$map_id&server_id=$server_id\">$name</a>$ip</li>\n";	
 	
 	} while ($row = pg_fetch_array($result));
 	

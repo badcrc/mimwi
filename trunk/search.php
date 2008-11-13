@@ -37,7 +37,7 @@ require_once "funciones.php";
 
 	<h3><? echo NAME_SEARCH; ?></h3>
 	<ul class="form">
-			<form action="busca.php" name="busca_equipo" method="post">
+			<form action="searcher.php" name="busca_equipo" method="post">
 			<li><input type="text" name="equipo" value="<? echo DEVICE; ?>" id="some_name" onclick="clickclear(this, '<? echo DEVICE; ?>')" onblur="clickrecall(this,'<? echo DEVICE; ?>')" /></li>
 		</ul>
 	<p><a href="javascript:document.busca_equipo.submit()" class="button white"><? echo SEARCH; ?></a></p>
@@ -47,7 +47,7 @@ require_once "funciones.php";
 	<h3><? echo IP_SEARCH; ?></h3>
 	
 	<ul class="form">
-			<form action="busca.php" name="busca_ip" method="post">
+			<form action="searcher.php" name="busca_ip" method="post">
 			<li><input type="text" name="ip" value="X.X.X.X" id="some_name" onclick="clickclear(this, 'X.X.X.X')" onblur="clickrecall(this,'X.X.X.X')" /></li>
 	
 	</ul>

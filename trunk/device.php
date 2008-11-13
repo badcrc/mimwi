@@ -80,28 +80,9 @@ if($device_id!="") {
 	
 	<div id="header">
 		<h1><? echo DEVICE; ?></h1>
-		<a href="mapa.php?id=<? echo $map_id?>&server_id=<? echo $server_id; ?>" id="backButton" class="nav"><? echo BACK; ?></a>
+		<a href="map.php?id=<? echo $map_id?>&server_id=<? echo $server_id; ?>" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 	
-
-<?
-/*
-<ul class="data">
-	<li class="picture">
-	
-		<? 
-			if(file_exists("/home/ruby/fln/shared/images/anime/$anime_id/thumb/portada.jpg"))
-				echo "<center><img src=\"http://flnimg.frozen-layer.com/images/anime/$anime_id/thumb/portada.jpg\" alt=\"$serie\" /></center>"; 
-			else	
-				echo "<center><img src=\"\" alt=\"$serie\" /></center>";
-			
-		?>
-		
-
-	</li>
-</ul>
-*/
-?>
 
 
 <h1><? echo $device; ?></h1>
@@ -151,7 +132,7 @@ if($device_id!="") {
 	
 		if($row["dataset_id"]!="") {	
 			do {
-				echo "<li class=\"arrow\"><a href=\"grafica.php?dataset_id=".$row["dataset_id"]."&device_id=$device_id&map_id=$map_id&server_id=$server_id\">".$row["label"]."</a></li>";
+				echo "<li class=\"arrow\"><a href=\"graph.php?dataset_id=".$row["dataset_id"]."&device_id=$device_id&map_id=$map_id&server_id=$server_id\">".$row["label"]."</a></li>";
 			}while ($row = pg_fetch_array($result));
 		} else {
 			echo "<li>No hay gráficas para este dispositivo</li>";

@@ -41,24 +41,6 @@ if($device_id!="") {
 		<a href="dispositivo.php?device_id=<? echo $device_id; ?>&map_id=<? echo $map_id; ?>&server_id=<? echo $server_id; ?>" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 	
-<?
-/*
-<ul class="data">
-	<li class="picture">
-	
-		<? 
-			if(file_exists("/home/ruby/fln/shared/images/anime/$anime_id/thumb/portada.jpg"))
-				echo "<center><img src=\"http://flnimg.frozen-layer.com/images/anime/$anime_id/thumb/portada.jpg\" alt=\"$serie\" /></center>"; 
-			else	
-				echo "<center><img src=\"\" alt=\"$serie\" /></center>";
-			
-		?>
-		
-
-	</li>
-</ul>
-*/
-?>
 
 <?
 if($row["interface_id"]!="") {		

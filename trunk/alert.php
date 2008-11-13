@@ -50,7 +50,7 @@ if($event_id!="") {
 	
 	<div id="header">
 		<h1><? echo ALERTS; ?></h1>
-		<a href="alertas.php" id="backButton" class="nav"><? echo BACK; ?></a>
+		<a href="alerts.php" id="backButton" class="nav"><? echo BACK; ?></a>
 	</div>
 
 <?
@@ -60,7 +60,7 @@ if($event_id!="") {
 <h1><? echo DATA; ?></h1>
 
 <ul class="field">
-	<li><h3><? echo DEVICE; ?>:</h3><a href="dispositivo.php?device_id=<? echo $row["device_id"]; ?>&map_id=<? echo $row["map_id"]; ?>&server_id=<? echo $row["server_id"]; ?>"><? echo $device; ?></a></li>
+	<li><h3><? echo DEVICE; ?>:</h3><a href="device.php?device_id=<? echo $row["device_id"]; ?>&map_id=<? echo $row["map_id"]; ?>&server_id=<? echo $row["server_id"]; ?>"><? echo $device; ?></a></li>
 	<li><h3><? echo MAP; ?>:</h3><? echo $map; ?> </li>
 	<li><h3><? echo CREATE_TIME; ?>:</h3><? echo $begin_time; ?></li>
 	<li><h3><? echo DELETE_TIME; ?>:</h3><? echo $end_time; ?></li>

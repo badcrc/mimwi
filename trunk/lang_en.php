@@ -100,7 +100,10 @@ define("ABOUT_TEXT",
 //errors
 define("ERROR_DB_CONNECT",
 "<h2>Unable to connect to database</h2>
+<img src=\"images/error.gif\" alt=\"error\"/>
+<br /><br />
 Check conection parameters in db.php and postgresql server conectivity.
+
 ");
 
 
